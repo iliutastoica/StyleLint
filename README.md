@@ -17,7 +17,7 @@ SASS/CSS Coding Standards
 :tada: Here are the rules for a foolproof CSS file
 
 These rules will help you write better CSS/SCSS code for better Standards.
-<img src="https://i.github-camo.com/0f7ea286f12d90256431c2edb65087dacb8ad73a/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f41746f6d4c696e7465722f6c696e7465722d7374796c656c696e742f6d61737465722f64656d6f2e706e67" alt="demo" data-canonical-src="https://raw.githubusercontent.com/AtomLinter/linter-stylelint/master/demo.png">
+<img src="https://raw.githubusercontent.com/AtomLinter/linter-stylelint/master/demo.png" alt="demo" />
 
 The rules are:
 
