@@ -68,3 +68,10 @@ The rules are:
 - **Understands CSS-like syntaxes:** it understands any CSS syntax including SCSS.
 - **Works only with stylelint:** [stylelint](http://stylelint.io/) is a mighty, modern CSS linter. stylefmt can understand the formatting rules specified in your stylelint configuration file (`.stylelintrc`).
 - **Works with linter-stylelint** [linter-stylelint](https://atom.io/packages/linter-stylelint) A plugin for Atom Linter providing an interface to stylelint.
+- **Uses a properties order**:
+    1. BOX & STATUS MODIFIERS (display, visibility, opacity, float, clear, content, list-style*, marker-offset, box-*, grid-*, zoom, etc),
+    2. SIZE & ARRANGEMENT (width, height, max-/min-*, margin*, padding*, position, top/right/bottom/left, clip, z-index, etc),
+    3. COLOR & BG (background*, color*, border*, outline*),
+    4. TEXT (font*, line-*, text-*, word-*, letter-*, white-space*, column-*, etc),
+    5. SPECIAL EFFECTS (animation*, transition*, transform*, perspective*, *-shadow, border-radius)
+    6. OTHERS (cue*, speak*, mark*, rest*, voice*, ruby*, fit*, page*, appearance, cursor, nav-*, etc)
