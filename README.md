@@ -2,7 +2,7 @@
 SASS/CSS Guidelines
 
 <div align="center">
-  <a href="https://everymatrix.com/">
+  <a href="https://everymatrix.com/sass-standards.pdf">
     <img src="https://everymatrix.com/wp-content/themes/em2/img/redesign/logo-everymatrix.png" alt="EveryMatrix" />
   </a>
 </div>
