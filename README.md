@@ -17,6 +17,7 @@ SASS/CSS Coding Standards
 :tada: Here are the rules for a foolproof CSS file
 
 These rules will help you write better CSS/SCSS code for better Standards.
+
 <img src="https://raw.githubusercontent.com/AtomLinter/linter-stylelint/master/demo.png" alt="demo" />
 
 The rules are:
@@ -69,6 +70,7 @@ The rules are:
 - **Understands CSS-like syntaxes:** it understands any CSS syntax including SCSS.
 - **Works only with stylelint:** [stylelint](http://stylelint.io/) is a mighty, modern CSS linter. stylefmt can understand the formatting rules specified in your stylelint configuration file (`.stylelintrc`).
 - **Works with linter-stylelint** [linter-stylelint](https://atom.io/packages/linter-stylelint) A plugin for Atom Linter providing an interface to stylelint.
+- **The rules** are based on the EveryMatrix Coding Standards and the full list can be seen [here](http://stylelint.io/user-guide/rules/)
 
 - **Uses a properties order**:
     1. BOX & STATUS MODIFIERS (display, visibility, opacity, float, clear, content, list-style*, marker-offset, box-*, grid-*, zoom, etc),
@@ -80,12 +82,8 @@ The rules are:
 
 
 ## Instalation
-<p>Install the linter-stylelint plugin for <a href="https://github.com/AtomLinter/atom-linter">Atom Linter</a> providing
-an interface to <a href="https://github.com/stylelint/stylelint">stylelint</a>.</p>
-<pre class="editor editor-colors">
-    <div class="line">
-        <span class="text plain null-grammar">
-        <span>apm&nbsp;install&nbsp;linter-stylelint</span>
-        </span>
-    </div>
+- Install **stylelint:** [stylelint](http://stylelint.io/)
+- Install **linter-stylelint** [plugin](https://github.com/AtomLinter/atom-linter) for Atom Linter to provide a interface to <a href="https://github.com/stylelint/stylelint">stylelint</a>.
+<pre class="editor">
+        <span>apm&nbsp;install&nbsp;linter-stylelint</span>  
 </pre>
