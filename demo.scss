@@ -1,0 +1,118 @@
+// compileNested: demo.css, sourceMap: true, compileOnSave: true
+
+/* Bad example : empty class*/
+.aa { }
+
+/* Bad example : multiple classes per line*/
+.a { width: auto; } .b { height: auto; }
+
+/* Bad example : invalid color*/
+.c { color: #y3; }
+
+ /*Bad example : use 3 digit hex*/
+.d { color: #FFFFFF; }
+
+ /*Bad example : add space after property:*/
+.e { color:pink }
+.ea { border:0; }
+
+ /*Bad example : do not define the same property multiple times*/
+.f { color: pink; border: 0; color: orange;   }
+
+/* Bad example : do not use properties which are ignored*/
+.fa { display: inline; width: 100px; }
+.fb { display: inline-block; float: left; }
+.fc { display: block; vertical-align: baseline; }
+
+
+/* Bad example : do not ever use !important */
+.g { color: #000 !important; }
+
+/* Bad example : do not use properties which are overwriten */
+.ga { padding-left: 10px; padding: 20px; }
+.gb { transition-property: opacity; transition: opacity 1s linear; }
+.gc { border-top-width: 1px;  border: 2px solid blue; }
+/* this is allowed ---> border: 1px solid #000; border-top: 0; */
+
+/* Bad example : do not use nesting with more than 3 descendents */
+.i {
+    span {
+        div { color: pink;
+            a { display: none; }
+        }
+    }
+}
+
+/* Bad example : do not use duplicate selectors */
+.a { height: auto; }
+
+/* Bad example : do not use units with 0 */
+.aj { top: 0px; }
+.ak { height: 0.000em; }
+
+/* Bad example : do not use px for font-size, use em, vh */
+.j { font-size: 12px; }
+
+/* Bad example : do not use id selectors */
+#k { height: auto; }
+
+/* Bad example : do not forget quotes on font-family */
+.kf { font-family: Times New Roman, Times, serif; }
+
+/* Bad example : do not use numbers on font-weight */
+.kg { font: italic 400 20px; font-weight: 700; }
+
+.lk { Width: 1px }
+
+* { margin: 0; }
+
+.foo .bar .baz .lorem { height: auto; }
+.foo .baz {
+  & > .bar .lorem { color: pink; }
+}
+.foo + div:not(.a ~ .c) { color: white; } /* strangely this is not an error --> .a ~ .c is inside :not() and is processed separately */
+
+a { background-size: 0
+    , 0; }
+
+
+a, button, label { text-decoration: none; }
+input::-moz-placeholder { text-decoration: none; }
+:full-screen a { color: red; }
+
+/******************
+***     properties order from EM-SASS Standards
+**************************/
+.testdata { filter: gray; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); }
+.aaa { color: pink; top: 0; }
+.aba { float: left; display: block; }
+.abc { text-align: left; color: red; }
+.acb { border-radius: 0; background: #313131; }
+
+
+/********************
+//***    Scrollbar
+//**************************/
+::-webkit-scrollbar              { width: 8px; }
+::-webkit-scrollbar-button       { background: #222; }
+::-webkit-scrollbar-track        { border-radius: 0 }
+::-webkit-scrollbar-track-piece  { background: #000; }
+::-webkit-scrollbar-thumb        { background: #313131; border-radius: 0; }
+::-webkit-scrollbar-corner       { /* 6 */ }
+::-webkit-resizer                { /* 7 */ }
+
+@font-face { font-family: "demo";
+    src: url("./fonts/demo.eot");
+    src: url("./fonts/demo.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/demo.woff") format("woff"),
+    url("./fonts/demo.ttf") format("truetype"),
+    url("./fonts/demo.svg#Futura Light") format("svg");
+}
+
+/************/
+/* CLEARFIX */
+/************/
+*|*:link { /* stylelint-disable-line */ outline: 0 none; }
+.Main { display : table-cell; *display : block; width : auto; }
+.Body, .Container, .Box, .Main, .BoxTitle, .Tabs, .SlideItem, .Zone { *zoom : 1; }
+.Container:after, .Box:after { clear : both; display : block; visibility : hidden; overflow : hidden; height : 0; line-height : 0; font-size : xx-large; content : " x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x x "; }

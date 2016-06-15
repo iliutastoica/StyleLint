@@ -1,0 +1,44 @@
+{
+  "rules": {
+    "block-no-empty": true,
+    "block-closing-brace-newline-after": "always",
+    "custom-property-no-outside-root": "true",
+    "color-no-invalid-hex": true,
+    "color-hex-length": "short",
+    "declaration-colon-space-after": "always",
+    "declaration-block-no-duplicate-properties": {
+        ignore: ["consecutive-duplicates"]
+    },
+    "declaration-no-important": true,
+    "declaration-block-no-ignored-properties": true,
+    "declaration-block-no-shorthand-property-overrides": true,
+    "declaration-block-properties-order": ["display", "visibility", "opacity", "float", "clear", "content", "list-style", "width", "height", "min-width", "max-width", "min-height", "max-height" , "margin", "padding", "position", "top", "right", "bottom", "left", "clip", "z-index", "background", "color", "border", "outline", "font", "line-height", "text-align", "word-wrap", "letter-spacing", "white-space", "animation", "transition", "transform", "text-shadow", "box-shadow", "border-radius", "appearance", "cursor", "speak" ],
+    "function-max-empty-lines": 2,
+    "keyframe-declaration-no-important": true,
+    "font-family-name-quotes": "always-where-recommended",
+    "font-weight-notation": "named-where-possible",
+    "length-zero-no-unit": true,
+    "max-empty-lines": 2,
+    "max-nesting-depth": 2,
+    "no-duplicate-selectors": true,
+    "property-no-vendor-prefix": false,
+    "property-case": "lower",
+    "property-blacklist": [ "*zoom", "*display" ],
+    "selector-no-vendor-prefix": false,
+    "selector-max-compound-selectors": 3,
+    "selector-no-id": true,
+    "selector-no-type": {
+        ignore: [ "descendant", "compounded" ]
+    },
+    "selector-no-universal": true,
+    "value-list-comma-newline-after": "always-multi-line",
+    "unit-whitelist": {
+        "font-size" : ["em", "rem", "%", "vw", "vh"],
+        "line-height": ["em", "vh" ]
+    },
+    "declaration-property-unit-blacklist": {
+        "/^animation/": ["s"],
+        "font-size" : ["px"]
+    }
+  }
+}
