@@ -67,6 +67,7 @@
 * { margin: 0; }
 
 .foo .bar .baz .lorem { height: auto; }
+
 .foo .baz {
   & > .bar .lorem { color: pink; }
 }

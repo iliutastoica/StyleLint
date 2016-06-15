@@ -21,7 +21,7 @@
     "max-empty-lines": 2,
     "max-nesting-depth": 2,
     "no-duplicate-selectors": true,
-    "property-no-vendor-prefix": false,
+    "property-no-vendor-prefix": true,
     "property-case": "lower",
     "property-blacklist": [ "*zoom", "*display" ],
     "selector-no-vendor-prefix": false,
