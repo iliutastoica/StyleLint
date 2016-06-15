@@ -20,9 +20,9 @@ These rules will help you write better CSS/SCSS code for better Standards.
 
 The rules are:
 
-- do not use **empty class** : .foo { }
-- do not use ** multiple classes per line** : .foo { } .bar { }
-- do not use **invalid color variables** : color: #y3;
-- use simpler color **3 digit hex** : use #FFF instead of #FFFFFF for saving bits on the final file size.
+- do not use **empty class**  .foo { }
+- do not use **multiple classes per line**  .foo { } .bar { }
+- do not use **invalid color variables**  color: #y3;
+- use simpler color **3 digit hex**  use #FFF instead of #FFFFFF for saving bits on the final file size.
 
 ## Features
