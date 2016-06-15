@@ -3,7 +3,7 @@ Lint your SCSS/CSS files
 
 <div align="center">
   <a href="http://stylelint.io/">
-    <img src="https://everymatrix.com/wp-content/themes/em2/img/logo/logo.png" alt="EveryMatrix" />
+    <img src="https://everymatrix.com/wp-content/themes/em2/img/redesign/logo-everymatrix.png" alt="EveryMatrix" />
     <span class="logotext"> SASS/CSS Guidelines </span>
   </a>
 </div>
