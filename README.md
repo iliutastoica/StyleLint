@@ -64,3 +64,7 @@ The rules are:
 
 
 ## Features
+- **Supports all CSS syntax:** Including custom properties, range context for media features, `calc()` and nesting.
+- **Understands CSS-like syntaxes:** it understands any CSS syntax including SCSS.
+- **Works only with stylelint:** [stylelint](http://stylelint.io/) is a mighty, modern CSS linter. stylefmt can understand the formatting rules specified in your stylelint configuration file (`.stylelintrc`).
+- **Works with linter-stylelint** [linter-stylelint](https://atom.io/packages/linter-stylelint) A plugin for Atom Linter providing an interface to stylelint.
