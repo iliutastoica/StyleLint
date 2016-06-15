@@ -1,5 +1,5 @@
 # StyleLint Rules
-SASS/CSS Guidelines
+SASS/CSS Coding Standards
 
 <div align="center">
   <a href="https://everymatrix.com/sass-standards.pdf">
@@ -14,9 +14,10 @@ SASS/CSS Guidelines
 
 <br>
 
-:tada: There are the rules for a fool proof CSS file
+:tada: Here are the rules for a foolproof CSS file
 
 These rules will help you write better CSS/SCSS code for better Standards.
+<img src="https://i.github-camo.com/0f7ea286f12d90256431c2edb65087dacb8ad73a/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f41746f6d4c696e7465722f6c696e7465722d7374796c656c696e742f6d61737465722f64656d6f2e706e67" alt="demo" data-canonical-src="https://raw.githubusercontent.com/AtomLinter/linter-stylelint/master/demo.png">
 
 The rules are:
 
@@ -68,6 +69,7 @@ The rules are:
 - **Understands CSS-like syntaxes:** it understands any CSS syntax including SCSS.
 - **Works only with stylelint:** [stylelint](http://stylelint.io/) is a mighty, modern CSS linter. stylefmt can understand the formatting rules specified in your stylelint configuration file (`.stylelintrc`).
 - **Works with linter-stylelint** [linter-stylelint](https://atom.io/packages/linter-stylelint) A plugin for Atom Linter providing an interface to stylelint.
+
 - **Uses a properties order**:
     1. BOX & STATUS MODIFIERS (display, visibility, opacity, float, clear, content, list-style*, marker-offset, box-*, grid-*, zoom, etc),
     2. SIZE & ARRANGEMENT (width, height, max-/min-*, margin*, padding*, position, top/right/bottom/left, clip, z-index, etc),
@@ -75,3 +77,15 @@ The rules are:
     4. TEXT (font*, line-*, text-*, word-*, letter-*, white-space*, column-*, etc),
     5. SPECIAL EFFECTS (animation*, transition*, transform*, perspective*, *-shadow, border-radius)
     6. OTHERS (cue*, speak*, mark*, rest*, voice*, ruby*, fit*, page*, appearance, cursor, nav-*, etc)
+
+
+## Instalation
+<p>Install the linter-stylelint plugin for <a href="https://github.com/AtomLinter/atom-linter">Atom Linter</a> providing
+an interface to <a href="https://github.com/stylelint/stylelint">stylelint</a>.</p>
+<pre class="editor editor-colors">
+    <div class="line">
+        <span class="text plain null-grammar">
+        <span>apm&nbsp;install&nbsp;linter-stylelint</span>
+        </span>
+    </div>
+</pre>
