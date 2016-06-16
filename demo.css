@@ -21,6 +21,11 @@
 .ea {
     border: 0; }
 
+/*Bad example : do not add space after value:*/
+a {
+    color: pink;
+    top: 0; }
+
 /*Bad example : do not define the same property multiple times*/
 .f {
     color: pink;
@@ -83,6 +88,10 @@
 #k {
     height: auto; }
 
+/* Bad example : do not use single quotes */
+.foa {
+    content: 'x'; }
+
 /* Bad example : do not forget quotes on font-family */
 .kf {
     font-family: Times New Roman, Times, serif; }
@@ -105,12 +114,20 @@
 .foo .baz > .bar .lorem {
     color: pink; }
 
+/* Bad example : do not use leading 0 format */
+.foo {
+    height: 0.5em; }
+
 /* Bad example : do not use specificity more than (0,3,0) */
 .foo + div:not(.a ~ .c) {
     color: white; }
 
 .nav .selected > a:hover {
     color: blue; }
+
+/* Bad example: no-qualifying-type */
+div.class {
+    margin: 0; }
 
 a {
     background-size: 0 , 0; }

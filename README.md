@@ -49,8 +49,11 @@ The rules are:
 - do not use units with 0 .aj { top: 0px; } .ak { height: 0.000em; }
 - do not use px for font-size, use em, vh .foo { font-size: 12px; }
 - do not use id selectors #foo { height: auto; }
+- do not use single quotes .foo { content: 'x'; }
 - do not forget quotes on font-family .foo { font-family: Times New Roman, Times, serif; }
 - do not use numbers on font-weight .foo { font: italic 400 20px; font-weight: 700; }
+- do not use leading 0 format .foo { height: 0.5em; }
+- do not user qualifying type  div.class { margin: 0 }
 - do not use Uppercase in properties .foo { Width: 1px }
 - do not use universal selector * { margin: 0; }
 - do not use more than 3 compound selectors
