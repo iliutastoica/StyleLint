@@ -26,6 +26,7 @@
     "property-blacklist": [ "*zoom", "*display" ],
     "selector-no-vendor-prefix": false,
     "selector-max-compound-selectors": 3,
+    "selector-max-specificity": "0,3,0",
     "selector-no-id": true,
     "selector-no-type": {
         ignore: [ "descendant", "compounded" ]
