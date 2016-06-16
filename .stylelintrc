@@ -37,6 +37,7 @@
     },
     "selector-no-universal": true,
     "value-list-comma-newline-after": "always-multi-line",
+    "unit-no-unknown": true,
     "unit-whitelist": {
         "font-size" : ["em", "rem", "%", "vw", "vh"],
         "line-height": ["em", "vh" ]
