@@ -102,17 +102,16 @@
 .foo .bar .baz .da {
     height: auto; }
 
-/* Bad example : do not use specificity more than 3 */
-.nav .selected > a:hover {
-    color: blue; }
-
 .foo .baz > .bar .lorem {
     color: pink; }
 
+/* Bad example : do not use specificity more than (0,3,0) */
 .foo + div:not(.a ~ .c) {
     color: white; }
 
-/* strangely this is not an error --> .a ~ .c is inside :not() and is processed separately */
+.nav .selected > a:hover {
+    color: blue; }
+
 a {
     background-size: 0 , 0; }
 

@@ -59,6 +59,7 @@ The rules are:
         & > .bar .lorem { color: pink; }
         }
     - .foo + div:not(.a ~ .c) { color: white; } /* strangely this is not an error --> .a ~ .c is inside :not() and is processed separately */
+- do not use specificity more than (0,3,0)
 - do not use multi-lines values when declaring values with comma:
     a { background-size: 0
       , 0; }
